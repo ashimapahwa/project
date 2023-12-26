@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(0,0,0,0.75),(rgba(0,0,0,0.75)),url(background.webp);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-family: cursive;
+    font-size: 100px;;
+    
+}
+h3{
+    font-family: cursive;
+    font-size: 25px;;
+}
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: cursive;
+}
+.hero{
+height: 100vh;
+width: 100%;
+
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 40px;
+padding-left:10% ;
+padding-right: 10%;
+}
+span{
+color:aquamarine;
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+padding: 10px 20px;
+}
+nav ul li a{
+color: darkgray;
+text-decoration: none;
+font-weight: bold;
+}
+nav ul li a:hover{
+color:gray;
+transition: .3s;
+}
+
+
+input{
+border:3px solid;
+height:40px;
+width:300px;
+border-radius: 50px;
+padding:10px;
+color: darkgray;
+}
+.container{
+max-width: 1170px;
+background-color: gray;
+margin: auto;
+}
+.row{
+display: flex;
+flex-wrap: wrap;
+}
+
+.footer {
+background-color:gray;
+color:white ;
+text-align: center;
+padding: 10px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
